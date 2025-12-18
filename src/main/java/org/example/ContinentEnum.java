@@ -2,7 +2,7 @@ package org.example;
 
 public enum ContinentEnum {
     AFRICA,
-    EUROPA,
+    EUROPE,
     ASIA,
     AMERICA
 }
