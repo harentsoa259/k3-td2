@@ -6,8 +6,6 @@ public class Main {
     public static void main(String[] args) {
         DataRetriever retriever = new DataRetriever();
 
-        System.out.println("=== DÉBUT DU TEST SIMPLIFIÉ ===");
-
         try {
             System.out.println("\n[1] LECTURE DE L'ÉQUIPE 1");
             Team team1 = retriever.findTeamById(1);
@@ -45,7 +43,5 @@ public class Main {
             System.out.println("\n--- ERREUR DURANT LE TEST ---");
             System.out.println("Message : " + e.getMessage());
         }
-
-        System.out.println("\n=== FIN DU TEST ===");
     }
 }
